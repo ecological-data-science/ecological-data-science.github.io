@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
-@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
 @import url("fontawesome-all.min.css");
 
 /*
@@ -83,12 +82,21 @@ input, select, textarea {
 		box-sizing: inherit;
 	}
 
+	body, input, select, textarea {
+		color: #777;
+		font-size: 16pt;
+		font-weight: 300;
+		line-height: 1.65em;
+		letter-spacing: -0.015em;
+	}
+
 	body {
 		background: #f0f4f4;
 		color: #5b5b5b;
 		font-size: 15pt;
-		line-height: 1.85em;
-  font-family: "Roboto", Arial, sans-serif;
+		line-height: 1.65em;
+		letter-spacing: -0.015em;
+		font-family: "Source Sans Pro", sans-serif;
 		font-weight: 300;
 	}
 
@@ -106,13 +114,13 @@ input, select, textarea {
 	input, textarea, select {
 		font-size: 15pt;
 		line-height: 1.85em;
-  font-family: "Roboto", Arial, sans-serif;
+		font-family: "Source Sans Pro", sans-serif;
 		font-weight: 300;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 400;
-  font-family: "Roboto", Arial, sans-serif;
+		font-weight: 300;
+		font-family: "Source Sans Pro", sans-serif;
 		color: #483949;
 		line-height: 1.25em;
 	}
@@ -138,7 +146,7 @@ input, select, textarea {
 	}
 
 	h2 {
-		font-size: 2.85em;
+		font-size: 2.0em;
 	}
 
 	h3 {
@@ -2224,8 +2232,8 @@ input, select, textarea {
 
 		#header h1 {
 			color: #fff;
-  font-family: "Roboto", Arial, sans-serif;
-			font-size: 1em;
+			font-family: "Source Sans Pro", sans-serif;
+			font-size: 2em;
 			line-height: 1em;
 		}
 
@@ -2235,10 +2243,10 @@ input, select, textarea {
 
 		#header .button {
 			display: inline-block;
-			border-radius: 100%;
-			width: 4.5em;
-			height: 4.5em;
-			line-height: 4.5em;
+			border-radius: 05%;
+			width: 6.5em;
+			height: 2.5em;
+			line-height: 2.5em;
 			text-align: center;
 			font-size: 1.25em;
 			padding: 0;
