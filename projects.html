@@ -19,6 +19,22 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+<style>
+.image.featured {
+    height: 0;
+    padding-bottom: 66.67%; /* This creates a 3:2 aspect ratio */
+    position: relative;
+    overflow: hidden;
+}
+
+.image.featured img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+</style>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="no-sidebar is-preload">
@@ -57,46 +73,127 @@
 					<div class="container">
 						<article id="main" class="special">
 							<h2>Project descriptions</h2>
-							<p>Projects available for the 2025 intake will be available here shortly. In year 1, students will undertake a group rotation project in 3 of the listed projects, before selecting a single project as their PhD topic.</p>
-						</article>
+							<p>The listed projects represent the projects that are available for the 2025 cohort. In year 1, students will undertake a group rotation project in 3 of the listed projects, before selecting a single project as their PhD topic.</p>
+            </article>
 						<br>
-
 						<div class="row">
+							<article class="col-4 col-12-mobile special">
+								<div class="image featured"><img src="images/boonekamp.png" alt=""/></div>
+								<h3>What do wild insects do? Leveraging AI to describe wild insect behaviour and to uncover their functions for fitness</h3>
+								<p>
+								<h4>Primary supervisor: <a href="mailto:Jelle.Boonekamp@glasgow.ac.uk">Dr. Jelle Boonekamp</a></h4>
+								</p>
+  							<details>
+    							<summary>Project summary</summary>
+								<p>The study of behaviour is key to our understanding of the evolutionary ecology of natural animal populations. Whilst there is a vast literature on the behavioural ecology of wild vertebrates, the behaviour of insects in nature remains elusive. Our project (wildcrickets.org) has amassed 18 years of 24/7 video recordings of the entire adult lives of a wild population of crickets in a meadow in Spain. Every individual is tagged, and 140 networked video cameras have tracked their movements around the meadow, their matings, fights, escape from predators and every other facet of their lives. For 10 years we also have direct measures of reproductive success through DNA parentage analyses. The advent of machine learning and AI finally gives us the opportunity to leverage this extraordinary resource beyond the simple metrics we have extracted by watching video manually. Our aim is to develop an automated video analysis pipeline that will allow us (and those collecting similar data in the future) to critically further our understanding of the behavioural ecology of wild insects: Do individuals have a chronotype? Is there evidence of senescence in individual activity? Do individuals dynamically respond to predation risk? Are there trade-offs between male signalling effort and other aspects of reproductive investment? What is the function of these behaviours in terms of fitness? The list is endless…</p>
+								</details>
+							</article>
 
+							<article class="col-4 col-12-mobile special">
+								<div class="image featured"><img src="images/farrell.png" alt=""/></div>
+								<h3>Text mining with large language models to enhance infectious disease ecology</h3>
+								<p>
+								<h4>Primary supervisor: <a href="mailto:Maxwell.Farrell@glasgow.ac.uk">Dr. Maxwell Farrell</a></h4>
+								</p>
+  							<details>
+    							<summary>Project summary</summary>
+								<p>Understanding factors that influence host specificity, sites of infection, and disease severity is crucial for developing effective strategies to monitor, prevent, control, and treat cross-species infectious diseases. Large-scale databases of host-pathogen interactions underlie models that predict future emerging infectious disease threats. These databases are often built through manual curation of scientific literature, but as the number of academic papers grows exponentially, scientists need new approaches for extracting and curating data contained in scientific texts. Deep learning-based Large Language Models (LLMs) have revolutionized information extraction in the biomedical sciences, but are rarely used in ecology. This project will use Natural Language Processing (NLP), LLMs, and graph neural networks (GNNs) to build comprehensive knowledge graphs for cross-species infectious diseases, including host species, infected tissues, disease pathologies, pathogen traits, and diagnostic methods. These data will be used to identify the ecological and evolutionary drivers of disease severity, and build predictive models to identify future infectious disease risks. Further, by developing a generalised approach to generate knowledge graphs using LLMs, this will improve the efficiency of large-scale literature syntheses with broad applications across ecology, environmental science, and biomedicine.</p>
+								</details>
+							</article>
 
-
-
-
-
+							<article class="col-4 col-12-mobile special">
+								<div class="image featured"><img src="images/niu.jpg" alt=""/></div>
+								<h3>Collective animal movement and resource selection in changing environments</h3>
+								<p>
+								<h4>Primary supervisor: <a href="mailto:Mu.Niu@glasgow.ac.uk">Dr. Mu Niu</a></h4>
+								</p>
+  							<details>
+    							<summary>Project summary</summary>
+								<p>Advances in technologies such as GPS have revolutionized the tracking of wildlife, providing detailed data on how animals move and interact. It is now feasible to track multiple animals simultaneously, at high frequency and for long periods. This project explores the movement of animals both individually and in groups, focusing on how environmental factors and resource availability shape their behaviours. Animals in groups often move interdependently, influenced by interactions between individuals. However, traditional movement models primarily address individual animals and ignore these group dynamics. On the other hand, collective movement models are often parameterized with short-term data. This research will develop innovative statistical models to better understand how animals move collectively. Such movement necessarily involves each individual responding to their physical environment, as well as other group members, and a key aspect of this project is understanding how animals use space and resources within the group setting. Incorporating both these aspects of short-term movement decisions and long-term space use in a coherent mathematical model will illuminate how animals collectively adapt to their surroundings. It will use cutting-edge statistical and machine learning methods, such as diffusion models. The findings and methodology developed will provide valuable insights into animal behaviour and ecology, supporting conservation efforts and helping manage human impacts on wildlife.</p>
+								</details>
+							</article>
 						</div>
 
 						<hr />
 						
 						<div class="row">
+							<article class="col-4 col-12-mobile special">
+								<div class="image featured"><img src="images/belmont.png" alt=""/></div>
+								<h3>Extreme value theory for predicting animal dispersal and movement in a changing climate</h3>
+								<p>
+								<h4>Primary supervisor: <a href="mailto:jafet.belmontosuna@glasgow.ac.uk">Dr. Jafet Belmont Osuna</a></h4>
+								</p>
+  							<details>
+    							<summary>Project summary</summary>
+								<p>There is an imperative need to understand and predict how populations respond to multiple aspects of global change, such as habitat fragmentation and climate change. Extreme weather events, which are expected to increase in both frequency and intensity, can profoundly impact animal movement and spatial dynamics. Additionally, for many species, rare long-distance dispersal events play a crucial role in reaching suitable habitats for germination, establishment, and colonisation across fragmented or managed landscapes. Many plant species, for instance, rely on birds for dispersal—birds ingest fruits and later deposit seeds through defecation or regurgitation. Accurately predicting such processes requires models that capture both seed retention times within birds and bird movement patterns. This project aims to develop and apply cutting-edge statistical methods for analysing animal movement and dispersal data using Extreme-Value Theory (EVT) within a Bayesian framework. EVT, a well-established theoretical framework that has been widely used in environmental sciences for modelling extreme events, has seen limited application in ecology. We will leverage EVT to (1) understand how extreme weather events can affect animal movement, and (2) to make better predictions of dispersal processes. This work offers substantial potential for novel insights and methodological advancements. By integrating experimental research and state-of-the-art tracking technologies, the project will inform the development of hierarchical Bayesian models to explore patterns and drivers of animal movement and dispersal, with a particular focus on extreme behaviours and their ecological implications.</p>
+								</details>
+							</article>
 
+							<article class="col-4 col-12-mobile special">
+								<div class="image featured"><img src="images/reeve.jpg" alt=""/></div>
+								<h3>Leveraging large language models to provide insights into global plant biodiversity</h3>
+								<p>
+								<h4>Primary supervisor: <a href="mailto:Richard.Reeve@glasgow.ac.uk">Prof. Richard Reeve</a></h4>
+								</p>
+  							<details>
+    							<summary>Project summary</summary>
+								<p>Plants are fundamental to the provision of ecosystem services, and we are wholly dependent on them for survival. Yet, globally, many plant species are under threat of extinction. We need a comprehensive plant trait dataset as input to the next generation of biodiversity-climate models. The lack of such a dataset means that existing approaches focus on limited "Plant Functional Types" and cannot estimate the impacts of climate and land use change on individual species or help inform decision making on mitigating biodiversity loss. The needed plant trait data, from niche preferences to growth rates, are locked in the text of the vast botanical literature of the Biodiversity Heritage Library and other texts available to the Natural History Museum. This studentship would use the recent advances in large language models (LLMs) and natural language processing (NLP) to extract this information. We have developed an ecosystem modelling tool (EcoSISTEM, Harris et al., 2023, https://github.com/EcoJulia/EcoSISTEM.jl) that captures survival, competition and reproduction among multiple plant species across a landscape. LLMs will enable extraction of traits data for integration into the EcoSISTEM infrastructure and enable the inclusion of multilingual records, expanding the system's geographic and historical range. By addressing these enormous data gaps, the student will then explore global spatial and temporal variability in functional and other trait-based diversity measures to produce a unique and comprehensive evaluation of whether predictors exist of diversity at a global scale. Ultimately, the project will boost EcoSISTEM's ability to simulate plant responses to climate change with greater accuracy.</p>
+								</details>
+							</article>
 
-
-
+							<article class="col-4 col-12-mobile special">
+								<div class="image featured"><img src="images/viana.png" alt=""/></div>
+								<h3>Implications of mosquito community composition changes for vector control</h3>
+								<p>
+								<h4>Primary supervisor: <a href="mailto:Mafalda.Viana@glasgow.ac.uk">Dr. Mafalda Viana</a></h4>
+								</p>
+  							<details>
+    							<summary>Project summary</summary>
+								<p>Vector control remains one of the most effective tools against many vector-borne diseases worldwide. For its success, some species are significantly reduced or even locally eliminated. As a result, the balance of interspecific competition among species is expected to change, potentially leading to changes in the community composition. The problem for malaria control is that disease transmission is often maintained by a suite of mosquito species that may differ in their efficiency at transmitting disease and response to interventions. Thus changes in species relative abundance could have positive or negative effects on the overall vectorial capacity of the mosquito community. The overall objective of the project would be to understand how vector control impacts mosquito species community and its implications for vector-borne disease such as malaria. Specifically, through a combination of Bayesian spatial-temporal models fit to mosquito abundance records from the global database GBIF and meta-analysis the PhD will address: 1. Mosquito-mosquito interactions: How have mosquito communities changed? 2. Mosquito-disease: What are the implications of the community changes for disease transmission? 3. Mosquito-control: Are the changes in mosquito community associated with intervention? 4. Mosquito-control-environment: What is the role of environment for the impact of intervention might have on mosquito composition.</p>
+								</details>
+							</article>
 						</div>
 
 						<hr />
+						
 						<div class="row">
-						
+							<article class="col-4 col-12-mobile special">
+								<div class="image featured"><img src="images/vlaar.png" alt=""/></div>
+                <h3>The impact of deep learning optimization and design choices for marine biodiversity monitoring</h3>
+								<p>
+								<h4>Primary supervisor: <a href="mailto:Tiffany.Vlaar@glasgow.ac.uk">Dr. Tiffany Vlaar</a></h4>
+								</p>
+  							<details>
+    							<summary>Project summary</summary>
+								<p>This project aims to increase the efficiency, accuracy, and reliability of annotation and classification of large marine datasets using deep learning. Timely and accurate analysis of these long-term datasets will aid marine biodiversity monitoring efforts. Design of more efficient strategies further aims to reduce the carbon footprint of training and fine-tuning large machine learning models. The project is expected to lead to various novel insights for the machine learning community such as on optimal pre-training choices for downstream robust performance, the optimal order of learning samples with varying complexity levels, navigating instances with label ground truth uncertainty, and re-evaluation of metric design. The PhD student will be supported in building international collaborations with researchers across different disciplines and in developing effective research communication skills.</p>
+								</details>
+							</article>
 
+							<article class="col-4 col-12-mobile special">
+								<div class="image featured"><img src="images/zhang.png" alt=""/></div>
+								<h3>Computationally efficient inference methods for integrated spatial capture-recapture and movement models</h3>
+								<p>
+								<h4>Primary supervisor: <a href="mailto:Wei.Zhang.2@glasgow.ac.uk">Dr. Zhang Wei</a></h4>
+								</p>
+  							<details>
+    							<summary>Project summary</summary>
+								<p>Spatial capture-recapture (SCR) models are widely used in ecology to estimate population-level parameters, such as density and abundance. To make it conceptually and computationally easier to formulate and fit SCR models, one often ignores or simplifies the dynamic nature (i.e. movement) of activity centres of individuals over the period of study. Integrating movement into SCR models has been a promising research area for years, but progress so far has been limited. This PhD project aims to develop and validate SCR models that integrate more realistic movement processes, and computationally efficient methods and software packages to fit such models. First, this project aims to evaluate optimal survey designs for SCR models with movement, including detector placement, sampling intervals, and telemetry integration, to balance accuracy, effort, and cost for both closed and open populations. Second, it will develop SCR models that incorporate multi-behavioural movement (e.g., foraging, migrating) and long-term activity centre dynamics, while accounting for open-population processes such as recruitment and emigration. Third, it will develop computational tools such as tailored MCMC methods, sparse matrices, and a combination of numerical and approximate integration techniques to enable scalable inference for high-dimensional complex models. These innovations will be validated through thorough simulation studies and applied to case studies. The outputs of this project will benefit ecological practitioners, conservation management, and wildlife monitoring, providing useful tools and methodologies to improve population estimation, habitat connectivity analysis, and the design of efficient survey strategies for diverse species and ecosystems.</p>
+								</details>
+							</article>
+						</div>
 
-
-						
-
-
-
-					</div>
 						<hr />
-
 				</div>
 
 				<div id="footer">
 					<div class="copyright">
 						<small>&copy; 2025 University of Glasgow.</span> <span>Designed by <a href="http://freehtml5.co/" target="_blank">FreeHTML5.co</a>. </span> <span> Banner image by <a href="https://unsplash.com/@danotis?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Dan Otis</a> on <a href="https://unsplash.com/photos/aerial-view-of-pine-trees-in-mist-OYFHT4X5isg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>.</span> </small>
+						<small>Photo credits: 
+<a href="https://unsplash.com/photos/herd-of-sheeps-soslo4sEmBA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Herd of sheep</a> by <a href="https://unsplash.com/@charlottevenema?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Charlotte Venema</a>.
+<a href="https://unsplash.com/photos/a-computer-screen-with-a-chart-on-it-w9coDxtsfts?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Computer screen with chart</a> by <a href="https://unsplash.com/@moneyphotos?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">rc.xyz NFT gallery</a>.
+<a href="https://unsplash.com/photos/a-close-up-of-a-mosquito-on-a-yellow-surface--C4Ll5Qy8gM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Close-up of mosquito</a> by <a href="https://unsplash.com/@altzaga?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Tomás Zarraga</a>.
+
+							</small>
 					</div>
 				</div>
 
