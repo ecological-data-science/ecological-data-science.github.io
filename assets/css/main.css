@@ -440,6 +440,9 @@ input, select, textarea {
 			margin-left: 100%;
 		}
 
+		.row > .col-13 {
+			width: 20.0%;
+		}
 		.row.gtr-0 {
 			margin-top: 0px;
 			margin-left: 0px;
